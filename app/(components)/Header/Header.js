@@ -5,7 +5,7 @@ export default function Header({ title }) {
         <>
             <section className="Sub-header">
                 <Navbar />
-                <h1>{title}</h1>
+                <h1 className="wow animate__animated animate__bounce">{title}</h1>
             </section>
         </>
     )

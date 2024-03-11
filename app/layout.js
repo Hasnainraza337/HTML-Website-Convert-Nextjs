@@ -1,7 +1,7 @@
 import './globals.css'
+import 'animate.css';
 import Footer from './(components)/Footer/Footer'
-// import Navbar from './(components)/Navbar/Navbar'
-
+import Wow from './(components)/Wow/Wow';
 
 
 export default function RootLayout({ children }) {
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {/* <Navbar /> */}
+        <Wow />
         {children}
         <Footer />
       </body>

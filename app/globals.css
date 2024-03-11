@@ -262,7 +262,22 @@
      margin: auto;
      text-align: center;
      padding-top: 50px;
+
+
  }
+
+ /* .campus .row {
+
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-auto-rows: auto;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+
+ } */
+
+
 
  .campus-col {
      position: relative;
